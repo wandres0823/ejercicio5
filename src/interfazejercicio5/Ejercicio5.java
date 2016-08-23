@@ -176,6 +176,8 @@ public class Ejercicio5 extends javax.swing.JFrame {
  char c=evt.getKeyChar(); 
              
 
+ 
+ 
          
  
  
