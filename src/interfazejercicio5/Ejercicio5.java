@@ -47,6 +47,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         jLabel1.setText("empresa ");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 140, 40));
 
+        jLabel2.setForeground(new java.awt.Color(255, 51, 51));
         jLabel2.setText("Sueldo base :");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, -1, -1));
 
@@ -62,6 +63,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         });
         jPanel1.add(txtSueldo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 80, 120, -1));
 
+        cmbOperacion.setFont(new java.awt.Font("Verdana", 0, 11)); // NOI18N
         cmbOperacion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "El descuento por ley de politica publica", "El descuento por seguro social es: ", "El descuento por seguro forzoso es: ", "El descuento por caja de ahorro es:", "El total a pagar es: " }));
         jPanel1.add(cmbOperacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, -1, -1));
 
@@ -174,6 +176,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
  char c=evt.getKeyChar(); 
              
          
+ 
           if(!Character.isDigit(evt.getKeyChar()) && evt.getKeyChar()!='.') { 
               getToolkit().beep(); 
                
