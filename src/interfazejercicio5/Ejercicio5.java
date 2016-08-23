@@ -67,6 +67,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
         cmbOperacion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "El descuento por ley de politica publica", "El descuento por seguro social es: ", "El descuento por seguro forzoso es: ", "El descuento por caja de ahorro es:", "El total a pagar es: " }));
         jPanel1.add(cmbOperacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, -1, -1));
 
+        cmdDescuento.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         cmdDescuento.setText("Descuento");
         cmdDescuento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
