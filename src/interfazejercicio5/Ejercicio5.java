@@ -175,6 +175,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
     private void txtSueldoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSueldoKeyTyped
  char c=evt.getKeyChar(); 
              
+ 
          
  
  
