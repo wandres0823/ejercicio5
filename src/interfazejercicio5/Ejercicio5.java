@@ -177,6 +177,7 @@ public class Ejercicio5 extends javax.swing.JFrame {
              
          
  
+ 
           if(!Character.isDigit(evt.getKeyChar()) && evt.getKeyChar()!='.') { 
               getToolkit().beep(); 
                
